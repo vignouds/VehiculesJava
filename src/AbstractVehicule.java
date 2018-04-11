@@ -14,4 +14,8 @@ public abstract class AbstractVehicule implements Vehicule {
 		this.ouest=o;
 		this.est=e;
 	}
+	
+	public void setSpeed(float sp) {
+		this.speed=sp;
+	}
 }
