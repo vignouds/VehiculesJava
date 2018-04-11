@@ -1,10 +1,11 @@
 
 public class Bike extends AbstractVehicule {
-	private enum type;
+	private Type type;
 	
 	//Constructeur
-	public Bike() {
+	public Bike(){
 		super();
+		this.type=Type.VI;
 	}
 	
 	public void move(){
