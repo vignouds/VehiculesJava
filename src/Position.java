@@ -2,6 +2,12 @@
 public class Position {
 	private float latittude, longitude;
 	
+	//Constructeur 
+	public Position(){
+		this.latittude=0;
+		this.longitude=0;
+	}
+	
 	//Setters
 	public void setLatittude(float lat) {
 		this.latittude=lat;
