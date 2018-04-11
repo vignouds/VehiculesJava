@@ -2,6 +2,8 @@
 public abstract class AbstractVehicule implements Vehicule {
 	private float nord, sud, est, ouest, speed;
 	private Position position;
+	private int poids;
+	private String couleur, marque, modele;
 	
 	// Constructeur
 	public AbstractVehicule(){
@@ -11,6 +13,10 @@ public abstract class AbstractVehicule implements Vehicule {
 		this.ouest=0;
 		this.speed=0;
 		this.position=new Position();
+		this.poids=0;
+		this.couleur=" ";
+		this.marque=" ";
+		this.modele=" ";
 	}
 	
 	public Position getPosition(){
