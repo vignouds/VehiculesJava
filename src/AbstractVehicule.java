@@ -19,10 +19,12 @@ public abstract class AbstractVehicule implements Vehicule {
 		this.modele=" ";
 	}
 	
+	//Getters
 	public Position getPosition(){
 		return position;
 	}
 	
+	//Setters
 	public void setDirection(float n, float s, float o, float e) {
 		this.nord=n;
 		this.sud=s;
@@ -33,4 +35,21 @@ public abstract class AbstractVehicule implements Vehicule {
 	public void setSpeed(float sp) {
 		this.speed=sp;
 	}
+	
+	public void setPoids(int pd) {
+		this.poids=pd;
+	}
+	
+	public void setCouleur(String coul) {
+		this.couleur=coul;
+	}
+	
+	public void setMarque(String mq) {
+		this.marque=mq;
+	}
+	
+	public void setModele(String md) {
+		this.modele=md;
+	}
+	
 }
